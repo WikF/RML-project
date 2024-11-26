@@ -1,0 +1,18 @@
+@prefix character: <http://example.org/character/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix schema1: <http://schema.org/> .
+
+character:c1 a schema1:Person ;
+    dbo:hairColor "Brown" ;
+    schema1:givenName "XYZ" ;
+    schema1:lastName "Doe" .
+
+character:c2 a schema1:Person ;
+    dbo:hairColor "Blonde" ;
+    schema1:givenName "Me" ;
+    schema1:lastName "Smith" .
+
+character:c3 a schema1:Person ;
+    dbo:hairColor "Black" ;
+    schema1:givenName "You" .
+

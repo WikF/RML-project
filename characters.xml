@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<characters>
+    <character id="c1">
+        <firstname>XYZ</firstname>
+        <lastname>Doe</lastname>
+        <hair>Brown</hair>
+    </character>
+    <character id="c2">
+        <firstname>Me</firstname>
+        <lastname>Smith</lastname>
+        <hair>Blonde</hair>
+    </character>
+    <character id="c3">
+        <firstname>You</firstname>
+        <hair>Black</hair>
+    </character>
+</characters>
