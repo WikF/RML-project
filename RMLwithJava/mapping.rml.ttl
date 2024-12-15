@@ -1,0 +1,19 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix ex: <http://example.com/ns#> .
+
+<#Mapping> a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data.xml" ;
+        rml:referenceFormulation ql:XPath ;
+        rml:iterator "/root/element"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://example.com/entity/{id}" ;
+        rr:class ex:Entity
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ex:hasName ;
+        rr:objectMap [ rml:reference "name" ]
+    ] .

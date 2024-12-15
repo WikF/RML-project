@@ -1,0 +1,7 @@
+<http://example.org/character/0> <http://dbpedia.org/ontology/hairColor> "black" .
+<http://example.org/character/0> <http://schema.org/givenName> "Ash" .
+<http://example.org/character/0> <http://schema.org/lastName> "Ketchum" .
+<http://example.org/character/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://example.org/character/1> <http://dbpedia.org/ontology/hairColor> "orange" .
+<http://example.org/character/1> <http://schema.org/givenName> "Misty" .
+<http://example.org/character/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
